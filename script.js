@@ -21,7 +21,6 @@ while (p<5 && c<5){
 
     player = prompt("Enter rock, paper, or scissors.");
     player = player.toUpperCase();
-    console.log(player);
     if (player != "ROCK" && player != "PAPER" && player != "SCISSORS"){
         console.log("Please enter rock, paper, or scissors.");
         continue;
