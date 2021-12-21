@@ -1,6 +1,6 @@
 //This function will allow the cpu to pick randomly between 1 and 3
 //These values will be assigned to rock, paper, and scissors, ascending
-function randomInt(min, max) {
+function getRandomInt(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
     return Math.floor(Math.random()*(max-min+1)+min);
@@ -26,7 +26,7 @@ while (p<5 && c<5){
         continue;
     }
 
-    cpu = randomInt(1,3)
+    cpu = getRandomInt(1,3)
     if (cpu==1){
         cpu = "ROCK";
     }else if(cpu==2){
