@@ -1,0 +1,60 @@
+body {
+    background:#242582;
+}
+
+.title{
+    display:flex;
+    justify-content:center;
+    font-family:roboto,"Playfair Display","Open Sans",Arial;
+    font-size: 80px;
+    color:#99738E;
+}
+.container1 {
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:center;
+}
+
+#gamecontainer {
+    display:flex;
+    flex-flow:column nowrap;
+    align-items:center;
+    
+    gap:40px;
+}
+
+.btn {
+    background-color:#F64C72;
+    width:200px;
+    height:100px;
+
+    font-family:montserrat, serif;
+    font-size:40px;
+    font-weight:bold;
+    color:#553D67;
+
+    border-radius:30px;
+    border-color:#553D67;
+    border-style:solid;
+
+    transition: all .2s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+.btnClick {
+    border-color:#F64C72;
+}
+
+.buttons {
+    display:flex;
+    flex-flow:row nowrap;
+    gap:20px;
+}
+
+.message {
+    color:#99738E;
+    font-family:roboto,"Playfair Display","Open Sans",Arial;
+    font-size:30px;
+}
